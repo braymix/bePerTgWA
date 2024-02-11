@@ -1,12 +1,15 @@
 {
   "name": "bepertgwa",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "node bot.js"
   },
   "author": "",
   "license": "0BSD",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "telegraf": "^4.15.3"
+  }
 }
