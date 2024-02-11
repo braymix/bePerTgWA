@@ -1,15 +1,17 @@
 {
   "name": "bepertgwa",
   "version": "1.0.0",
-  "main": "bot.js",
+  "main": "server.js",
   "scripts": {
-    "postinstall": "node bot.js"
+    "start": "node server.js", 
+    "start-with-script": "npm run start & bot.js"
   },
   "author": "",
   "license": "0BSD",
   "keywords": [],
   "description": "",
   "dependencies": {
+    "child_process": "^1.0.2",
     "telegraf": "^4.15.3"
   }
 }
