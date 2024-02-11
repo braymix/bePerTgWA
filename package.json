@@ -1,0 +1,12 @@
+{
+  "name": "bepertgwa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "",
+  "license": "0BSD",
+  "keywords": [],
+  "description": ""
+}
