@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
-    "test": "node bot.js"
+    "postinstall": "node bot.js"
   },
   "author": "",
   "license": "0BSD",
